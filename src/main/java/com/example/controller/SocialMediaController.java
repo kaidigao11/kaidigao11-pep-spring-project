@@ -82,7 +82,7 @@ public class SocialMediaController {
             return ResponseEntity.status(200).body(resultMessage);
         }
         return ResponseEntity.status(400).body(null);
-    }
+    } 
 
     /**
      * 
